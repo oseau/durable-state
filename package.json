@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/oseau/durable-state/issues"
   },
-  "homepage": "https://github.com/oseau/durable-state#readme"
+  "homepage": "https://github.com/oseau/durable-state#readme",
+  "devDependencies": {
+    "@preconstruct/cli": "^2.2.2"
+  }
 }
