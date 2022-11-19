@@ -2,9 +2,11 @@ lockfileVersion: 5.4
 
 specifiers:
   '@preconstruct/cli': ^2.2.2
+  typescript: ^4.9.3
 
 devDependencies:
   '@preconstruct/cli': 2.2.2
+  typescript: 4.9.3
 
 packages:
 
@@ -1363,6 +1365,12 @@ packages:
   /type-fest/0.8.1:
     resolution: {integrity: sha512-4dbzIzqvjtgiM5rw1k5rEHtBANKmdudhGyBEajN01fEyhaAIhsoKNy6y7+IN93IfpFtwY9iqi7kD+xwKhQsNJA==}
     engines: {node: '>=8'}
+    dev: true
+
+  /typescript/4.9.3:
+    resolution: {integrity: sha512-CIfGzTelbKNEnLpLdGFgdyKhG23CKdKgQPOBc+OUNrkJ2vr+KSzsSV5kq5iWhEQbok+quxgGzrAtGWCyU7tHnA==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
     dev: true
 
   /universalify/2.0.0:

@@ -1,10 +1,12 @@
 {
   "name": "durable-state",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
-  "main": "index.js",
+  "main": "dist/durable-state.cjs.js",
+  "module": "dist/durable-state.esm.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "preconstruct build",
+    "release": "npm run build && npm publish --registry https://registry.npmjs.org"
   },
   "repository": {
     "type": "git",
@@ -17,7 +19,11 @@
     "url": "https://github.com/oseau/durable-state/issues"
   },
   "homepage": "https://github.com/oseau/durable-state#readme",
+  "files": [
+    "dist"
+  ],
   "devDependencies": {
-    "@preconstruct/cli": "^2.2.2"
+    "@preconstruct/cli": "^2.2.2",
+    "typescript": "^4.9.3"
   }
 }
